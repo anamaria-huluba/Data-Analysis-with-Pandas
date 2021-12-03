@@ -18,7 +18,8 @@ print(inventory.head(10))
 
 staten_island = inventory.head(10)
 
-#4. A customer just emailed you asking what products are sold at your Staten Island location. Select the column product_description from staten_island and save it to the variable product_request.
+#4. A customer just emailed you asking what products are sold at your Staten Island location. Select the column product_description from staten_island and save it to the 
+#variable product_request.
 
 product_request = staten_island.product_description
 
