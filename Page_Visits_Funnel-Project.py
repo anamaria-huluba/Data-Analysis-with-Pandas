@@ -1,6 +1,7 @@
 # Page Visits Funnel
 
-# Cool T-Shirts Inc. has asked you to analyze data on visits to their website. Your job is to build a funnel, which is a description of how many people continue to the next step of a multi-step process.
+# Cool T-Shirts Inc. has asked you to analyze data on visits to their website. Your job is to build a funnel, which is a description of how many people continue to the next step
+#of a multi-step process.
 
 # In this case, our funnel is going to describe the following process:
 
@@ -94,7 +95,8 @@ print(null_cart_time)
 
 # 5. What percent of users who visited Cool T-Shirts Inc. ended up not placing a t-shirt in their cart?
 
-# Note: To calculate percentages, it will be helpful to turn either the numerator or the denominator into a float, by using float(), with the number to convert passed in as input. Otherwise, Python will use integer division, which truncates decimal points.
+# Note: To calculate percentages, it will be helpful to turn either the numerator or the denominator into a float, by using float(), with the number to convert passed in as 
+# input. Otherwise, Python will use integer division, which truncates decimal points.
 
 print(float(null_cart_time) / visits_cart_rows)
 # returns:0.826
@@ -148,7 +150,8 @@ print(float(null_purchase_time) / checkout_purchse_rows)
 
 # Average Time to Purchase
 
-# 10. Using the giant merged DataFrame all_data that you created, let’s calculate the average time from initial visit to final purchase. Start by adding the following column to your DataFrame:
+# 10. Using the giant merged DataFrame all_data that you created, let’s calculate the average time from initial visit to final purchase. Start by adding the following column 
+# to your DataFrame:
 
 all_data['time_to_purchase'] = \
     all_data.purchase_time - \
@@ -163,9 +166,8 @@ print(all_data.time_to_purchase)
 print(all_data.time_to_purchase.mean())
 # returns: 0 days 00:43:53.360160
 
-# In this project I used pandas to build a funnel which will provide insight into which parts of the website needed to be improved. 
-# I used merges to investigate the specific combinations of data and to store information along the way.Merging is an impi=ortant part of
-# the data analysis because it allows us to store data in smaller, more managable data frames without losing any of the functionalities 
-# of scaling a large dataframe. 
+# In this project I used pandas to build a funnel which will provide insight into which parts of the website needed to be improved. I used merges to investigate the specific 
+# combinations of data and to store information along the way.Merging is an impi=ortant part of the data analysis because it allows us to store data in smaller, more managable 
+# data frames without losing any of the functionalities of scaling a large dataframe. 
 
 
