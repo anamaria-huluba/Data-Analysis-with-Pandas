@@ -1,6 +1,8 @@
 # A/B Testing for ShoeFly.com
 
-# Our favorite online shoe store, ShoeFly.com is performing an A/B Test. They have two different versions of an ad, which they have placed in emails, as well as in banner ads on Facebook, Twitter, and Google. They want to know how the two ads are performing on each of the different platforms on each day of the week. Help them analyze the data using aggregate measures.
+# Our favorite online shoe store, ShoeFly.com is performing an A/B Test. They have two different versions of an ad, which they have placed in emails, as well as in banner ads 
+# on Facebook, Twitter, and Google. They want to know how the two ads are performing on each of the different platforms on each day of the week. Help them analyze the data 
+# using aggregate measures.
 
 # Analyzing Ad Sources
 
@@ -185,7 +187,6 @@ print(b_clicks_pivot)
 
 # Do you recommend that your company use Ad A or Ad B?
 
-#11. The last two columns of the two adds, Ad A and Ad B, represents the percent clicked rate for every day of the week. This comparison makes it easier to notice 
-#the results for the two ads. I notice the ads picked at diffrent times during the week. Ad A has a better rate than B on every day of the week 
-#except for Tuesday. Based on this data and all the other tables I looked at over the course of this project, I would recommend that your 
-#company uses Ad A. 
+#11. The last two columns of the two adds, Ad A and Ad B, represents the percent clicked rate for every day of the week. This comparison makes it easier to notice the results 
+# for the two ads. I notice the ads picked at diffrent times during the week. Ad A has a better rate than B on every day of the week except for Tuesday. Based on this data and
+# all the other tables I looked at over the course of this project, I would recommend that your company uses Ad A. 
